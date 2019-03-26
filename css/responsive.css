@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1000px)
+{
+    .about__inner .table
+    {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1000px)
+{
+    .work__headline, .service__headline, .employement__headline, .contact__headline
+    {
+        text-align: center;
+    }
+    
+    .work__headline::after, .service__headline::after, .employement__headline::after, .contact__headline::after
+    {
+        text-align: center;
+        margin: 10px auto;
+    }
+    
+    .work .content-right
+    {
+        padding: 15px;
+    }
+    
+    .service .content-right, .employement .content-right
+    {
+        padding: 30px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px)
+{
+    .review__description
+    {
+        width: 90%;
+    }
+    
+    .work, .service, .employement
+    {
+        padding: 50px 0px;
+    }
+}
+
+@media only screen and (max-width: 450px)
+{
+    .inner
+    {
+        width: 250px;
+        height: 200px;
+        padding: 20px 0px;
+    }
+            
+    .rel
+    {
+        padding: 0px;
+    }
+    
+    .work .content-right
+    {
+        padding: 0px;
+    }
+    
+    .review__description
+    {
+        font-size: 16px;
+    }
+    
+    .review__description__coworker
+    {
+        padding-top: 0px;
+    }
+    
+    .carousel
+    {
+        top: 80%;
+    }
+    
+}
